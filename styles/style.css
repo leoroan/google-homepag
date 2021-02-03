@@ -1,0 +1,108 @@
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 1%;
+  margin: 5px
+
+}
+
+.logo {
+  display: block;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:10px;
+  padding: 2.5%;
+}
+.divLogo{
+  padding-left:10%;
+}
+.icon {  
+    height: auto;
+    position: absolute;
+}
+
+.menuThing{
+  height:23px;
+  position:relative;
+  bottom:4px;
+}
+
+.search {
+  height:35px;
+  border: none;
+  width:500px;
+  font-size:16px; 
+  background-color: #ffffff;
+  left: 400px;
+}
+.searchPlace:hover, .searchPlace:focus {
+  outline: none;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.searchPlace{
+  height: 40px;
+  width: 575px;
+  line-height: 50px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  font: 16px arial,sans-serif;
+  border:1px solid #dcdcdc;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+.iconThing_micro{
+  height:20px;
+  position: relative;
+  top:5px;
+  
+}
+.iconThing_lens{
+  height:20px;
+  position: relative;
+  top:5px;
+  left: 5px;
+  opacity: 0.40;
+}
+
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.button{
+  background-color: #f8f9fa;
+  border:1px ;
+  color:#3d3b3b;
+  font-size:15px;
+  padding: 10px 15px;
+  margin:5px;
+  border-radius:5px;
+  text-align: justify;
+}
+
+.button:hover{
+  border: 1px solid #c8c8c8;
+  color:#808080;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  
+}
+
+.buttons{
+  margin-top: 30px;
+  padding-left: 300px;
+}
